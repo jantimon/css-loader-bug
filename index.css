@@ -1,0 +1,4 @@
+body:before {
+  content: '';
+  background: url('~!!file-loader!flags-of-the-world/src/DK.svg');
+}

@@ -1,0 +1,20 @@
+{
+  "name": "css-loader-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "with-modules": "webpack --config with-modules/webpack.config.js",
+    "without-modules": "webpack --config without-modules/webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
+    "flags-of-the-world": "^1.0.0",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.4.1"
+  }
+}
